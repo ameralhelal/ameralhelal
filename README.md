@@ -41,11 +41,11 @@ Terando ist eine Plattform für Krypto-Trading-Bots. Ein Server handelt rund um 
 | --- | --- | --- |
 | <img src="screenshots/coin.png" width="240" alt="Ethereum-Chart mit 50-Kerzen-Durchschnitt"> | <img src="screenshots/smart-trade.png" width="240" alt="Smart Trade mit Ziel, Sicherheits-Orders und Stopp im Chart"> | <img src="screenshots/backtest.png" width="240" alt="Simulation mit echten Kursen der letzten 180 Tage"> |
 
-| Bots | Portfolio |
-| --- | --- |
-| <img src="screenshots/bot-store.png" width="240" alt="Bots: Strategien mit Backtest-Ergebnis und Risiko"> | <img src="screenshots/portfolio.png" width="240" alt="Realisierter Gewinn je Börse im Demo-Konto"> |
+| Bots | Portfolio | Börse verbinden |
+| --- | --- | --- |
+| <img src="screenshots/bot-store.png" width="240" alt="Bots: Strategien mit Backtest-Ergebnis und Risiko"> | <img src="screenshots/portfolio.png" width="240" alt="Realisierter Gewinn je Börse im Demo-Konto"> | <img src="screenshots/connect.png" width="240" alt="Börse per API-Schlüssel verbinden, nur Handeln erlaubt"> |
 
-Die Prozentwerte auf der Bots-Seite sind Ergebnisse historischer Backtests, keine Gewinnzusage. Alle Beträge stammen aus einem Demo-Konto.
+Die Prozentwerte auf der Bots-Seite sind Ergebnisse historischer Backtests, keine Gewinnzusage. Alle Beträge stammen aus einem Demo-Konto. Der API-Schlüssel wird verschlüsselt auf dem Server gespeichert und darf nur handeln. Ein Schlüssel mit Auszahlungsrecht wird abgelehnt. Schlüsselende und Serveradresse sind im Bild unkenntlich gemacht.
 
 ### Aufbau
 
