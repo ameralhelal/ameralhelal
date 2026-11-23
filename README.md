@@ -54,7 +54,7 @@ Datenbank	SQLite
 Börsen-Anbindung	ccxt
 Betrieb	Linux-Server (Hetzner), Cloudflare Tunnel, systemd
 Qualität
-Jede Änderung geht durch ein Code-Review, erst dann wird sie veröffentlicht.
+Jede Änderung prüft ein zweites KI-Werkzeug, erst dann wird sie veröffentlicht.
 Neue Funktionen laufen zuerst im Demo-Konto und im Android-Emulator.
 Entscheidungen beruhen auf Tests mit historischen Daten, zum Beispiel über 5 Jahre und 13 Coins.
 In Zahlen
