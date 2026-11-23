@@ -118,10 +118,6 @@ Almadajen („die Geflügelfarm“) ist eine App für den Alltag auf Geflügelfa
 | --- | --- | --- |
 | <img src="screenshots/farm/en-vaccines.png" width="240" alt="Impfplan mit Hinweisen zur Impfung im Trinkwasser"> | <img src="screenshots/farm/en-report.png" width="240" alt="FCR, EPEF und voraussichtlicher Verkaufstag"> | <img src="screenshots/farm/en-charts.png" width="240" alt="Gewicht gegen Ziel, Verluste, Futter und Wasser"> |
 
-| Kranke Herde (KI) | Wochenanalyse (KI, Arabisch) | |
-| --- | --- | --- |
-| <img src="screenshots/farm/en-diagnose.png" width="240" alt="Symptome ankreuzen, die KI schlägt mögliche Ursachen vor"> | <img src="screenshots/farm/ar-ai.png" width="240" alt="Wöchentliche KI-Analyse der Zahlen"> | |
-
 <details>
 <summary><b>Screenshots auf Arabisch (von rechts nach links) anzeigen</b></summary>
 <br>
