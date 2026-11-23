@@ -2,7 +2,7 @@
 
 Ich plane und leite Apps, die echte Probleme aus meinem Alltag lösen: vom Krypto-Trading über die Verwaltung einer Geflügelfarm bis zum Verstehen deutscher Vorlesungen.
 
-Meine Rolle: Idee, Produktentscheidungen, Planung und Tests. Der Code entsteht mit KI-Werkzeugen, und jede Änderung prüft ein zweites KI-Werkzeug, bevor sie veröffentlicht wird. Mein größtes Projekt, Terando, hat rund 55.500 Zeilen Code und über 1.100 automatische Tests.
+Meine Rolle: Idee, Produktentscheidungen, Planung und Tests. Der Code entsteht mit KI-Werkzeugen, und jede Änderung prüft ein zweites KI-Werkzeug, bevor sie veröffentlicht wird. Mein größtes Projekt, Terando, hat rund 55.000 Zeilen Code und über 1.100 automatische Tests.
 
 Zurzeit mache ich eine Umschulung zum Fachinformatiker für Anwendungsentwicklung bei BIB Augsburg und lerne dort, selbst zu programmieren.
 
