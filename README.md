@@ -83,9 +83,105 @@ Die App spricht nie direkt mit einer Börse. Nur der Server benutzt die API-Schl
 
 ---
 
+## Almadajen – App für Geflügelfarmen
+
+Almadajen („die Geflügelfarm“) ist eine App für den Alltag auf Geflügelfarmen in Syrien: Masthähnchen, Legehennen und Elterntiere. Arbeiter tragen jeden Tag Verluste, Futter, Wasser, Temperatur und Gewicht ein, auch ohne Internet. Der Besitzer lebt in Deutschland und sieht alles auf dem Handy: was heute zu tun ist, Warnungen, Berichte und Gewinn.
+
+> Status: echte App im Einsatz. Android-App über Google Play (geschlossener Test, Freigabe für alle in Prüfung), dazu eine Web-App. Die Screenshots stammen aus der Testumgebung mit Demo-Daten. Der Code ist privat und kann auf Anfrage gezeigt werden.
+
+### Screenshots (Englisch)
+
+| Ställe | Start: „Was tun jetzt“ | Start: Kennzahlen |
+| --- | --- | --- |
+| <img src="screenshots/farm/en-batches.png" width="240" alt="Liste der Ställe mit Rasse und Kükenzahl"> | <img src="screenshots/farm/en-home.png" width="240" alt="Karte „What to do now“ mit Kamera-Knöpfen, Alter, Futter und Wasser für heute"> | <img src="screenshots/farm/en-home2.png" width="240" alt="Kennzahlen mit kleinen Verlaufslinien und Menü"> |
+
+| Tagesleitfaden | Tägliche Eingabe | Medikamentenpackung fotografieren |
+| --- | --- | --- |
+| <img src="screenshots/farm/en-guide.png" width="240" alt="Klima, Licht und Futter für jeden Tag nach Rasse"> | <img src="screenshots/farm/en-entry.png" width="240" alt="Eingabe von Verlusten, Futter und Wasser"> | <img src="screenshots/farm/en-camera.png" width="240" alt="Foto jetzt oder aus der Galerie"> |
+
+| Impfplan | Bericht | Diagramme |
+| --- | --- | --- |
+| <img src="screenshots/farm/en-vaccines.png" width="240" alt="Impfplan mit Hinweisen zur Impfung im Trinkwasser"> | <img src="screenshots/farm/en-report.png" width="240" alt="FCR, EPEF und voraussichtlicher Verkaufstag"> | <img src="screenshots/farm/en-charts.png" width="240" alt="Gewicht gegen Ziel, Verluste, Futter und Wasser"> |
+
+| Kranke Herde (KI) |
+| --- |
+| <img src="screenshots/farm/en-diagnose.png" width="240" alt="Symptome ankreuzen, die KI schlägt mögliche Ursachen vor"> |
+
+### Screenshots (Arabisch, von rechts nach links)
+
+| Ställe | Start | Tagesleitfaden |
+| --- | --- | --- |
+| <img src="screenshots/farm/ar-batches.png" width="240" alt="Liste der Ställe auf Arabisch"> | <img src="screenshots/farm/ar-home.png" width="240" alt="Startseite auf Arabisch"> | <img src="screenshots/farm/ar-guide.png" width="240" alt="Tagesleitfaden auf Arabisch"> |
+
+| Tägliche Eingabe | Impfplan | Diagramme |
+| --- | --- | --- |
+| <img src="screenshots/farm/ar-entry.png" width="240" alt="Tägliche Eingabe auf Arabisch"> | <img src="screenshots/farm/ar-vaccines.png" width="240" alt="Impfplan auf Arabisch"> | <img src="screenshots/farm/ar-charts.png" width="240" alt="Diagramme auf Arabisch"> |
+
+| Wochenanalyse (KI) | Kranke Herde (KI) |
+| --- | --- |
+| <img src="screenshots/farm/ar-ai.png" width="240" alt="Wöchentliche KI-Analyse der Zahlen"> | <img src="screenshots/farm/ar-diagnose.png" width="240" alt="Symptome ankreuzen auf Arabisch"> |
+
+### Aufbau
+
+```mermaid
+flowchart LR
+    App["App<br/>Flutter (Dart), Android + Web<br/>Arabisch · Englisch<br/>funktioniert offline"]
+    DB[("Firestore<br/>Einträge nur anhängen,<br/>nie überschreiben")]
+    Fn["Cloud Functions<br/>TypeScript<br/>Tageszusammenfassung · Warnungen"]
+    Push["Push<br/>Firebase Cloud Messaging"]
+    KI["KI<br/>Claude API"]
+    App <-->|"Sicherheitsregeln<br/>je Rolle"| DB
+    DB --> Fn
+    Fn --> DB
+    Fn --> Push --> App
+    Fn <--> KI
+```
+
+Jeder Eintrag ist ein Ereignis, das nur angehängt wird. Daraus berechnet der Server die Tageswerte, prüft sie gegen den Rassenleitfaden und schickt Warnungen aufs Handy.
+
+### Funktionen
+
+- **Tägliche Eingabe offline:** Verluste mit Ursache, Futter nach Sorte, Wasser in Litern oder Fässern, Temperatur, Gewicht, Eier. Ohne Netz wird gespeichert und später gesendet.
+- **Tagesleitfaden nach Rasse** (Ross 308, Cobb 500, Legehennen, Elterntiere): Temperatur, Feuchte, Licht, Futtersorte und Futter- und Wassermenge für die eigene Herde.
+- **„Was tun jetzt“:** Temperatur gegen Ziel („Heizung 1,2 Grad höher“), Medikamente von heute und gestern, Warnung vor falschen Mischungen, Wartezeit vor dem Verkauf.
+- **Medikamentenpackung fotografieren:** Die KI liest Wirkstoff, Dosis und Wartezeit (auch mehrere Packungen auf einmal), ebenso das Thermometer.
+- **Aufgaben, Medikamente und Impfungen des Tages** mit Dosisrechner. Push am Morgen, Erinnerung am Abend an Offenes.
+- **Sofortige Warnungen:** Hitze oder Kälte, weniger Wasser, weniger Eier, Gewicht unter Ziel, Futter fast leer, Wetterwarnung für morgen, Stall ohne Eintrag.
+- **Berichte:** FCR, EPEF, Gleichmäßigkeit, voraussichtlicher Verkaufstag, Diagramme, PDF per WhatsApp.
+- **Finanzen nur für den Besitzer:** Kosten, Verkäufe, Gewinn je Durchgang, in Dollar oder Landeswährung, Kauf auf Rechnung.
+- **KI:** wöchentliche Analyse der Zahlen und Hilfe bei kranker Herde. Immer als Vorschlag, die Entscheidung trifft der Tierarzt.
+- **Rollen:** Besitzer, Tierarzt (nur lesen), Arbeiter (nur eigene Ställe). Einfache, eindeutige Texte für Arbeiter, die kaum lesen.
+- **Zwei Sprachen:** Arabisch (von rechts nach links) und Englisch.
+
+### Technik
+
+| Bereich | Technologie |
+| --- | --- |
+| App | Flutter (Dart), Android und Web (auch iPhone über den Browser) |
+| Datenbank | Cloud Firestore, offline zuerst |
+| Server | Cloud Functions (TypeScript), Region Frankfurt |
+| Push | Firebase Cloud Messaging |
+| KI | Claude API (Anthropic) |
+| Betrieb | Test- und Echtumgebung getrennt, tägliche Sicherung |
+
+### Qualität
+
+- Jede Änderung prüft ein zweites, unabhängiges KI-Werkzeug, erst dann wird sie veröffentlicht.
+- Neue Funktionen laufen zuerst in einer eigenen Testumgebung und im Android-Emulator.
+- Automatische Tests für App, Server und die Sicherheitsregeln der Datenbank.
+
+### In Zahlen
+
+| | |
+| --- | --- |
+| Code (App, Server, Regeln) | ca. 28.600 Zeilen |
+| Automatische Tests | ca. 3.550 Zeilen (262 Tests) |
+| Commits | über 290, seit Oktober 2026 |
+
+---
+
 ## Weitere Projekte
 
-- **Geflügelfarm-App:** Verwaltung einer Geflügelfarm (Flutter, Firebase).
 - **Fahim:** transkribiert deutsche und englische Vorlesungen, übersetzt sie ins Arabische und erklärt sie.
 
 ---
