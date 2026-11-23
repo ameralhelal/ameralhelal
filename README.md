@@ -2,11 +2,11 @@ Hallo, ich bin Amer
 
 Ich entwickle Apps, die echte Probleme aus meinem Alltag lösen: vom Krypto-Trading über die Verwaltung einer Geflügelfarm bis zum Verstehen deutscher Vorlesungen.
 
-So arbeite ich: Ich schreibe die Anforderungen, plane den Aufbau (App, Server, Datenbank) und entscheide, wie Funktionen umgesetzt werden. Beim Programmieren nutze ich KI-Werkzeuge als Hilfe. Ich lese den Code, teste jede Änderung im Demo-Konto und im Android-Emulator, suche Fehler in Logs und richte die Server selbst ein (Linux, systemd, Cloudflare Tunnel). Jede Änderung wird zusätzlich von einem zweiten KI-Werkzeug geprüft, bevor sie veröffentlicht wird.
+So arbeite ich: Ich habe die Idee, beschreibe genau, was die App können soll, und treffe die Entscheidungen. Den Code schreibe ich mit Hilfe von KI-Werkzeugen. Jede neue Funktion teste ich selbst im Demo-Konto und im Android-Emulator und melde Fehler zurück, bis alles funktioniert. Dabei habe ich viel darüber gelernt, wie eine App, ein Server und eine Datenbank zusammenarbeiten.
 
 Mein größtes Projekt, Terando, hat rund 55.000 Zeilen Code und über 1.100 automatische Tests.
 
-Seit Februar 2026 mache ich eine Umschulung zum Fachinformatiker für Anwendungsentwicklung bei der BIB Augsburg. Dort lerne ich, selbst zu programmieren (zurzeit Python und C++), und vertiefe die Grundlagen hinter meinen Projekten.
+Seit Februar 2026 mache ich eine Umschulung zum Fachinformatiker für Anwendungsentwicklung bei der BIB Augsburg. Dort lerne ich, selbst zu programmieren. Genau das möchte ich im Praktikum vertiefen.
 
 🔎 Ich suche einen Praktikumsplatz vom 25.01. bis 29.10.2027, gern auch remote.
 
