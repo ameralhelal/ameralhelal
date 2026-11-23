@@ -2,11 +2,13 @@
 
 Ich plane und leite Apps, die echte Probleme aus meinem Alltag lösen: vom Krypto-Trading über die Verwaltung einer Geflügelfarm bis zum Verstehen deutscher Vorlesungen.
 
-Meine Rolle: Idee, Produktentscheidungen, Planung und Tests. Der Code entsteht mit KI-Werkzeugen, und jede Änderung prüft ein zweites KI-Werkzeug, bevor sie veröffentlicht wird.
+Meine Rolle: Idee, Produktentscheidungen, Planung und Tests. Der Code entsteht mit KI-Werkzeugen, und jede Änderung prüft ein zweites KI-Werkzeug, bevor sie veröffentlicht wird. Mein größtes Projekt, Terando, hat rund 76.500 Zeilen Code und über 1.100 automatische Tests.
 
-Zurzeit mache ich eine Umschulung zum Fachinformatiker für Anwendungsentwicklung bei BIB.
+Zurzeit mache ich eine Umschulung zum Fachinformatiker für Anwendungsentwicklung bei BIB Augsburg und lerne dort, selbst zu programmieren.
 
-**Sprachen:** Arabisch (Muttersprache), Deutsch
+🔎 Ich suche einen Praktikumsplatz vom 25.01. bis 29.10.2027, gern auch remote.
+
+Sprachen: Arabisch (Muttersprache), Deutsch (gute Kenntnisse), Englisch (Grundkenntnisse)
 
 ---
 
