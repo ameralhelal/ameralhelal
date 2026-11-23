@@ -1,129 +1,210 @@
-Hallo, ich bin Amer
+# Hallo, ich bin Amer 👋
 
 Ich entwickle Apps, die echte Probleme aus meinem Alltag lösen: vom Krypto-Trading über die Verwaltung einer Geflügelfarm bis zum Verstehen deutscher Vorlesungen.
 
-So arbeite ich: Ich habe die Idee, beschreibe genau, was die App können soll, und treffe die Entscheidungen. Den Code schreibe ich mit Hilfe von KI-Werkzeugen. Jede neue Funktion teste ich selbst im Demo-Konto und im Android-Emulator und melde Fehler zurück, bis alles funktioniert. Dabei habe ich viel darüber gelernt, wie eine App, ein Server und eine Datenbank zusammenarbeiten.
+> 🔎 **Ich suche einen Praktikumsplatz vom 25.01. bis 29.10.2027**, gern auch remote.
 
-Mein größtes Projekt, Terando, hat rund 55.000 Zeilen Code und über 1.100 automatische Tests.
+| | |
+| --- | --- |
+| 🎓 **Ausbildung** | Umschulung zum Fachinformatiker für Anwendungsentwicklung, BIB Augsburg (seit Februar 2026) |
+| 💻 **Größtes Projekt** | Terando: rund 55.000 Zeilen Code und über 1.100 automatische Tests |
+| 🗣️ **Sprachen** | Arabisch (Muttersprache), Deutsch (gute Kenntnisse), Englisch (Grundkenntnisse) |
+| 📫 **Kontakt** | [LinkedIn](https://www.linkedin.com/in/amer-alhelal-1930a5397/) · alhelalamer@gmail.com |
 
-Seit Februar 2026 mache ich eine Umschulung zum Fachinformatiker für Anwendungsentwicklung bei der BIB Augsburg. Dort lerne ich, selbst zu programmieren. Genau das möchte ich im Praktikum vertiefen.
+### So arbeite ich
 
-🔎 Ich suche einen Praktikumsplatz vom 25.01. bis 29.10.2027, gern auch remote.
+Ich habe die Idee, beschreibe genau, was die App können soll, und treffe die Entscheidungen. Den Code schreibe ich mit Hilfe von KI-Werkzeugen. Jede neue Funktion teste ich selbst im Demo-Konto und im Android-Emulator und melde Fehler zurück, bis alles funktioniert. Dabei habe ich viel darüber gelernt, wie eine App, ein Server und eine Datenbank zusammenarbeiten.
 
-Sprachen: Arabisch (Muttersprache), Deutsch (gute Kenntnisse), Englisch (Grundkenntnisse)
+In der Umschulung lerne ich, selbst zu programmieren. Genau das möchte ich im Praktikum vertiefen.
 
-Terando – Trading-Bots mit Handy-App
+### Projekte
+
+1. [Terando – Trading-Bots mit Handy-App](#terando--trading-bots-mit-handy-app)
+2. [Almadajen – App für Geflügelfarmen](#almadajen--app-für-geflügelfarmen)
+3. [Weitere Projekte](#weitere-projekte)
+
+---
+
+## Terando – Trading-Bots mit Handy-App
 
 Terando ist eine Plattform für Krypto-Trading-Bots. Ein Server handelt rund um die Uhr, eine Android-App steuert ihn.
 
-Status: persönliches Projekt für den eigenen Gebrauch – nicht kommerziell, nicht öffentlich verfügbar. Die Screenshots stammen aus einem Demo-Konto. Der Code ist privat und kann auf Anfrage gezeigt werden.
+> Status: persönliches Projekt für den eigenen Gebrauch – nicht kommerziell, nicht öffentlich verfügbar. Die Screenshots stammen aus einem Demo-Konto. Der Code ist privat und kann auf Anfrage gezeigt werden.
 
-Screenshots
-Start	Meine Bots	Trades
-<img src="screenshots/home.png" width="240" alt="Startseite mit Guthaben aller Börsen">	<img src="screenshots/bots.png" width="240" alt="Bots, Smart Trades und Marktlage">	<img src="screenshots/trades.png" width="240" alt="Offene Trades mit Chart, Einstieg und Ziel">
-Chart	Smart Trade	An der Vergangenheit testen
-<img src="screenshots/coin.png" width="240" alt="Ethereum-Chart mit 50-Kerzen-Durchschnitt">	<img src="screenshots/smart-trade.png" width="240" alt="Smart Trade mit Ziel, Sicherheits-Orders und Stopp im Chart">	<img src="screenshots/backtest.png" width="240" alt="Simulation mit echten Kursen der letzten 180 Tage">
-Bots	Portfolio
-<img src="screenshots/bot-store.png" width="240" alt="Bots: Strategien mit Backtest-Ergebnis und Risiko">	<img src="screenshots/portfolio.png" width="240" alt="Realisierter Gewinn je Börse im Demo-Konto">
+### Screenshots
+
+| Start | Meine Bots | Trades |
+| --- | --- | --- |
+| <img src="screenshots/home.png" width="240" alt="Startseite mit Guthaben aller Börsen"> | <img src="screenshots/bots.png" width="240" alt="Bots, Smart Trades und Marktlage"> | <img src="screenshots/trades.png" width="240" alt="Offene Trades mit Chart, Einstieg und Ziel"> |
+
+| Chart | Smart Trade | An der Vergangenheit testen |
+| --- | --- | --- |
+| <img src="screenshots/coin.png" width="240" alt="Ethereum-Chart mit 50-Kerzen-Durchschnitt"> | <img src="screenshots/smart-trade.png" width="240" alt="Smart Trade mit Ziel, Sicherheits-Orders und Stopp im Chart"> | <img src="screenshots/backtest.png" width="240" alt="Simulation mit echten Kursen der letzten 180 Tage"> |
+
+| Bots | Portfolio |
+| --- | --- |
+| <img src="screenshots/bot-store.png" width="240" alt="Bots: Strategien mit Backtest-Ergebnis und Risiko"> | <img src="screenshots/portfolio.png" width="240" alt="Realisierter Gewinn je Börse im Demo-Konto"> |
 
 Die Prozentwerte auf der Bots-Seite sind Ergebnisse historischer Backtests, keine Gewinnzusage. Alle Beträge stammen aus einem Demo-Konto.
 
-Aufbau
-HTTPS-API
-ccxt / eToro-API
-Handy-AppFlutter (Dart)Arabisch · Deutsch · Englisch
-ServerPython · FastAPIläuft rund um die Uhr
-DatenbankSQLite
-BörsenBinance · OKX · Bitget ·eToro
+### Aufbau
+
+```mermaid
+flowchart LR
+    App["Handy-App<br/>Flutter (Dart)<br/>Arabisch · Deutsch · Englisch"]
+    Server["Server<br/>Python · FastAPI<br/>läuft rund um die Uhr"]
+    DB[("Datenbank<br/>SQLite")]
+    Boersen["Börsen<br/>Binance · OKX · Bitget · eToro"]
+    App <-->|HTTPS-API| Server
+    Server <--> DB
+    Server <-->|"ccxt / eToro-API"| Boersen
+```
 
 Die App spricht nie direkt mit einer Börse. Nur der Server benutzt die API-Schlüssel.
 
-Funktionen
-Bots mit verschiedenen Strategien, zum Beispiel DCA mit Sicherheits-Orders.
-Smart Trades: Ziel, Stop-Loss und Sicherheits-Orders liegen als echte Limit-Orders auf der Börse.
-Demo-Konto und echtes Konto, klar getrennt.
-„An der Vergangenheit testen“: Eine Einstellung wird mit 2.000 möglichen Verläufen aus echten Kursen der letzten 180 Tage simuliert, bevor man sie startet.
-Benachrichtigungen bei Kauf, Verkauf und Problemen.
-Selbst-Update: Die App installiert neue Versionen selbst.
-Rechts-nach-links-Oberfläche für Arabisch, dazu Deutsch und Englisch.
-Technik
-Bereich	Technologie
-App	Flutter (Dart), Android
-Server	Python, FastAPI
-Datenbank	SQLite
-Börsen-Anbindung	ccxt
-Betrieb	Linux-Server (Hetzner), Cloudflare Tunnel, systemd
-Qualität
-Jede Änderung prüft ein zweites KI-Werkzeug, erst dann wird sie veröffentlicht.
-Neue Funktionen laufen zuerst im Demo-Konto und im Android-Emulator.
-Entscheidungen beruhen auf Tests mit historischen Daten, zum Beispiel über 5 Jahre und 13 Coins.
-In Zahlen
-	Zeilen
-Code (Server, App, Texte, Forschung)	ca. 55.000
-Automatische Tests	ca. 21.500 (über 1.100 Tests)
-Commits	über 770
-Almadajen – App für Geflügelfarmen
+### Funktionen
+
+- **Bots mit verschiedenen Strategien**, zum Beispiel DCA mit Sicherheits-Orders.
+- **Smart Trades:** Ziel, Stop-Loss und Sicherheits-Orders liegen als echte Limit-Orders auf der Börse.
+- **Demo-Konto und echtes Konto**, klar getrennt.
+- **„An der Vergangenheit testen“:** Eine Einstellung wird mit 2.000 möglichen Verläufen aus echten Kursen der letzten 180 Tage simuliert, bevor man sie startet.
+- **Benachrichtigungen** bei Kauf, Verkauf und Problemen.
+- **Selbst-Update:** Die App installiert neue Versionen selbst.
+- **Rechts-nach-links-Oberfläche** für Arabisch, dazu Deutsch und Englisch.
+
+### Technik
+
+| Bereich | Technologie |
+| --- | --- |
+| App | Flutter (Dart), Android |
+| Server | Python, FastAPI |
+| Datenbank | SQLite |
+| Börsen-Anbindung | ccxt |
+| Betrieb | Linux-Server (Hetzner), Cloudflare Tunnel, systemd |
+
+### Qualität
+
+- Jede Änderung prüft ein zweites KI-Werkzeug, erst dann wird sie veröffentlicht.
+- Neue Funktionen laufen zuerst im Demo-Konto und im Android-Emulator.
+- Entscheidungen beruhen auf Tests mit historischen Daten, zum Beispiel über 5 Jahre und 13 Coins.
+
+### In Zahlen
+
+| | Zeilen |
+| --- | --- |
+| Code (Server, App, Texte, Forschung) | ca. 55.000 |
+| Automatische Tests | ca. 21.500 (über 1.100 Tests) |
+| Commits | über 770 |
+
+---
+
+## Almadajen – App für Geflügelfarmen
 
 Almadajen („die Geflügelfarm“) ist eine App für den Alltag auf Geflügelfarmen in Syrien: Masthähnchen, Legehennen und Elterntiere. Arbeiter tragen jeden Tag Verluste, Futter, Wasser, Temperatur und Gewicht ein, auch ohne Internet. Der Besitzer lebt in Deutschland und sieht alles auf dem Handy: was heute zu tun ist, Warnungen, Berichte und Gewinn.
 
-Status: echte App im Einsatz. Android-App über Google Play (geschlossener Test, Freigabe für alle in Prüfung), dazu eine Web-App. Die Screenshots stammen aus der Testumgebung mit Demo-Daten. Der Code ist privat und kann auf Anfrage gezeigt werden.
+> Status: echte App im Einsatz. Android-App über Google Play (geschlossener Test, Freigabe für alle in Prüfung), dazu eine Web-App. Die Screenshots stammen aus der Testumgebung mit Demo-Daten. Der Code ist privat und kann auf Anfrage gezeigt werden.
 
-Screenshots (Englisch)
-Ställe	Start: „Was tun jetzt“	Start: Kennzahlen
-<img src="screenshots/farm/en-batches.png" width="240" alt="Liste der Ställe mit Rasse und Kükenzahl">	<img src="screenshots/farm/en-home.png" width="240" alt="Karte „What to do now“ mit Kamera-Knöpfen, Alter, Futter und Wasser für heute">	<img src="screenshots/farm/en-home2.png" width="240" alt="Kennzahlen mit kleinen Verlaufslinien und Menü">
-Tagesleitfaden	Tägliche Eingabe	Medikamentenpackung fotografieren
-<img src="screenshots/farm/en-guide.png" width="240" alt="Klima, Licht und Futter für jeden Tag nach Rasse">	<img src="screenshots/farm/en-entry.png" width="240" alt="Eingabe von Verlusten, Futter und Wasser">	<img src="screenshots/farm/en-camera.png" width="240" alt="Foto jetzt oder aus der Galerie">
-Impfplan	Bericht	Diagramme
-<img src="screenshots/farm/en-vaccines.png" width="240" alt="Impfplan mit Hinweisen zur Impfung im Trinkwasser">	<img src="screenshots/farm/en-report.png" width="240" alt="FCR, EPEF und voraussichtlicher Verkaufstag">	<img src="screenshots/farm/en-charts.png" width="240" alt="Gewicht gegen Ziel, Verluste, Futter und Wasser">
-Kranke Herde (KI)
-<img src="screenshots/farm/en-diagnose.png" width="240" alt="Symptome ankreuzen, die KI schlägt mögliche Ursachen vor">
-Screenshots (Arabisch, von rechts nach links)
-Ställe	Start	Tagesleitfaden
-<img src="screenshots/farm/ar-batches.png" width="240" alt="Liste der Ställe auf Arabisch">	<img src="screenshots/farm/ar-home.png" width="240" alt="Startseite auf Arabisch">	<img src="screenshots/farm/ar-guide.png" width="240" alt="Tagesleitfaden auf Arabisch">
-Tägliche Eingabe	Impfplan	Diagramme
-<img src="screenshots/farm/ar-entry.png" width="240" alt="Tägliche Eingabe auf Arabisch">	<img src="screenshots/farm/ar-vaccines.png" width="240" alt="Impfplan auf Arabisch">	<img src="screenshots/farm/ar-charts.png" width="240" alt="Diagramme auf Arabisch">
-Wochenanalyse (KI)	Kranke Herde (KI)
-<img src="screenshots/farm/ar-ai.png" width="240" alt="Wöchentliche KI-Analyse der Zahlen">	<img src="screenshots/farm/ar-diagnose.png" width="240" alt="Symptome ankreuzen auf Arabisch">
-Aufbau
-Sicherheitsregelnje Rolle
-AppFlutter (Dart), Android +WebArabisch · Englischfunktioniert offline
-FirestoreEinträge nur anhängen,nie überschreiben
-Cloud FunctionsTypeScriptTageszusammenfassung ·Warnungen
-PushFirebase Cloud Messaging
-KIClaude API
+### Screenshots
+
+| Ställe | Start: „Was tun jetzt“ | Start: Kennzahlen |
+| --- | --- | --- |
+| <img src="screenshots/farm/en-batches.png" width="240" alt="Liste der Ställe mit Rasse und Kükenzahl"> | <img src="screenshots/farm/en-home.png" width="240" alt="Karte „What to do now“ mit Kamera-Knöpfen, Alter, Futter und Wasser für heute"> | <img src="screenshots/farm/en-home2.png" width="240" alt="Kennzahlen mit kleinen Verlaufslinien und Menü"> |
+
+| Tagesleitfaden | Tägliche Eingabe | Medikamentenpackung fotografieren |
+| --- | --- | --- |
+| <img src="screenshots/farm/en-guide.png" width="240" alt="Klima, Licht und Futter für jeden Tag nach Rasse"> | <img src="screenshots/farm/en-entry.png" width="240" alt="Eingabe von Verlusten, Futter und Wasser"> | <img src="screenshots/farm/en-camera.png" width="240" alt="Foto jetzt oder aus der Galerie"> |
+
+| Impfplan | Bericht | Diagramme |
+| --- | --- | --- |
+| <img src="screenshots/farm/en-vaccines.png" width="240" alt="Impfplan mit Hinweisen zur Impfung im Trinkwasser"> | <img src="screenshots/farm/en-report.png" width="240" alt="FCR, EPEF und voraussichtlicher Verkaufstag"> | <img src="screenshots/farm/en-charts.png" width="240" alt="Gewicht gegen Ziel, Verluste, Futter und Wasser"> |
+
+| Kranke Herde (KI) | Wochenanalyse (KI, Arabisch) | |
+| --- | --- | --- |
+| <img src="screenshots/farm/en-diagnose.png" width="240" alt="Symptome ankreuzen, die KI schlägt mögliche Ursachen vor"> | <img src="screenshots/farm/ar-ai.png" width="240" alt="Wöchentliche KI-Analyse der Zahlen"> | |
+
+<details>
+<summary><b>Screenshots auf Arabisch (von rechts nach links) anzeigen</b></summary>
+<br>
+
+| Ställe | Start | Tagesleitfaden |
+| --- | --- | --- |
+| <img src="screenshots/farm/ar-batches.png" width="240" alt="Liste der Ställe auf Arabisch"> | <img src="screenshots/farm/ar-home.png" width="240" alt="Startseite auf Arabisch"> | <img src="screenshots/farm/ar-guide.png" width="240" alt="Tagesleitfaden auf Arabisch"> |
+
+| Tägliche Eingabe | Impfplan | Diagramme |
+| --- | --- | --- |
+| <img src="screenshots/farm/ar-entry.png" width="240" alt="Tägliche Eingabe auf Arabisch"> | <img src="screenshots/farm/ar-vaccines.png" width="240" alt="Impfplan auf Arabisch"> | <img src="screenshots/farm/ar-charts.png" width="240" alt="Diagramme auf Arabisch"> |
+
+| Kranke Herde (KI) | | |
+| --- | --- | --- |
+| <img src="screenshots/farm/ar-diagnose.png" width="240" alt="Symptome ankreuzen auf Arabisch"> | | |
+
+</details>
+
+### Aufbau
+
+```mermaid
+flowchart LR
+    App["App<br/>Flutter (Dart), Android + Web<br/>Arabisch · Englisch<br/>funktioniert offline"]
+    DB[("Firestore<br/>Einträge nur anhängen,<br/>nie überschreiben")]
+    Fn["Cloud Functions<br/>TypeScript<br/>Tageszusammenfassung · Warnungen"]
+    Push["Push<br/>Firebase Cloud Messaging"]
+    KI["KI<br/>Claude API"]
+    App <-->|"Sicherheitsregeln<br/>je Rolle"| DB
+    DB --> Fn
+    Fn --> DB
+    Fn --> Push --> App
+    Fn <--> KI
+```
 
 Jeder Eintrag ist ein Ereignis, das nur angehängt wird. Daraus berechnet der Server die Tageswerte, prüft sie gegen den Rassenleitfaden und schickt Warnungen aufs Handy.
 
-Funktionen
-Tägliche Eingabe offline: Verluste mit Ursache, Futter nach Sorte, Wasser in Litern oder Fässern, Temperatur, Gewicht, Eier. Ohne Netz wird gespeichert und später gesendet.
-Tagesleitfaden nach Rasse (Ross 308, Cobb 500, Legehennen, Elterntiere): Temperatur, Feuchte, Licht, Futtersorte und Futter- und Wassermenge für die eigene Herde.
-„Was tun jetzt“: Temperatur gegen Ziel („Heizung 1,2 Grad höher“), Medikamente von heute und gestern, Warnung vor falschen Mischungen, Wartezeit vor dem Verkauf.
-Medikamentenpackung fotografieren: Die KI liest Wirkstoff, Dosis und Wartezeit (auch mehrere Packungen auf einmal), ebenso das Thermometer.
-Aufgaben, Medikamente und Impfungen des Tages mit Dosisrechner. Push am Morgen, Erinnerung am Abend an Offenes.
-Sofortige Warnungen: Hitze oder Kälte, weniger Wasser, weniger Eier, Gewicht unter Ziel, Futter fast leer, Wetterwarnung für morgen, Stall ohne Eintrag.
-Berichte: FCR, EPEF, Gleichmäßigkeit, voraussichtlicher Verkaufstag, Diagramme, PDF per WhatsApp.
-Finanzen nur für den Besitzer: Kosten, Verkäufe, Gewinn je Durchgang, in Dollar oder Landeswährung, Kauf auf Rechnung.
-KI: wöchentliche Analyse der Zahlen und Hilfe bei kranker Herde. Immer als Vorschlag, die Entscheidung trifft der Tierarzt.
-Rollen: Besitzer, Tierarzt (nur lesen), Arbeiter (nur eigene Ställe). Einfache, eindeutige Texte für Arbeiter, die kaum lesen.
-Zwei Sprachen: Arabisch (von rechts nach links) und Englisch.
-Technik
-Bereich	Technologie
-App	Flutter (Dart), Android und Web (auch iPhone über den Browser)
-Datenbank	Cloud Firestore, offline zuerst
-Server	Cloud Functions (TypeScript), Region Frankfurt
-Push	Firebase Cloud Messaging
-KI	Claude API (Anthropic)
-Betrieb	Test- und Echtumgebung getrennt, tägliche Sicherung
-Qualität
-Jede Änderung prüft ein zweites, unabhängiges KI-Werkzeug, erst dann wird sie veröffentlicht.
-Neue Funktionen laufen zuerst in einer eigenen Testumgebung und im Android-Emulator.
-Automatische Tests für App, Server und die Sicherheitsregeln der Datenbank.
-In Zahlen
-	
-Code (App, Server, Regeln)	ca. 28.600 Zeilen
-Automatische Tests	ca. 3.550 Zeilen (262 Tests)
-Commits	über 290, seit Oktober 2026
-Weitere Projekte
-Fahim: transkribiert deutsche und englische Vorlesungen, übersetzt sie ins Arabische und erklärt sie.
+### Funktionen
 
-Kontakt: LinkedIn · E-Mail: alhelalamer@gmail.com
+- **Tägliche Eingabe offline:** Verluste mit Ursache, Futter nach Sorte, Wasser in Litern oder Fässern, Temperatur, Gewicht, Eier. Ohne Netz wird gespeichert und später gesendet.
+- **Tagesleitfaden nach Rasse** (Ross 308, Cobb 500, Legehennen, Elterntiere): Temperatur, Feuchte, Licht, Futtersorte und Futter- und Wassermenge für die eigene Herde.
+- **„Was tun jetzt“:** Temperatur gegen Ziel („Heizung 1,2 Grad höher“), Medikamente von heute und gestern, Warnung vor falschen Mischungen, Wartezeit vor dem Verkauf.
+- **Medikamentenpackung fotografieren:** Die KI liest Wirkstoff, Dosis und Wartezeit (auch mehrere Packungen auf einmal), ebenso das Thermometer.
+- **Aufgaben, Medikamente und Impfungen des Tages** mit Dosisrechner. Push am Morgen, Erinnerung am Abend an Offenes.
+- **Sofortige Warnungen:** Hitze oder Kälte, weniger Wasser, weniger Eier, Gewicht unter Ziel, Futter fast leer, Wetterwarnung für morgen, Stall ohne Eintrag.
+- **Berichte:** FCR, EPEF, Gleichmäßigkeit, voraussichtlicher Verkaufstag, Diagramme, PDF per WhatsApp.
+- **Finanzen nur für den Besitzer:** Kosten, Verkäufe, Gewinn je Durchgang, in Dollar oder Landeswährung, Kauf auf Rechnung.
+- **KI:** wöchentliche Analyse der Zahlen und Hilfe bei kranker Herde. Immer als Vorschlag, die Entscheidung trifft der Tierarzt.
+- **Rollen:** Besitzer, Tierarzt (nur lesen), Arbeiter (nur eigene Ställe). Einfache, eindeutige Texte für Arbeiter, die kaum lesen.
+- **Zwei Sprachen:** Arabisch (von rechts nach links) und Englisch.
+
+### Technik
+
+| Bereich | Technologie |
+| --- | --- |
+| App | Flutter (Dart), Android und Web (auch iPhone über den Browser) |
+| Datenbank | Cloud Firestore, offline zuerst |
+| Server | Cloud Functions (TypeScript), Region Frankfurt |
+| Push | Firebase Cloud Messaging |
+| KI | Claude API (Anthropic) |
+| Betrieb | Test- und Echtumgebung getrennt, tägliche Sicherung |
+
+### Qualität
+
+- Jede Änderung prüft ein zweites, unabhängiges KI-Werkzeug, erst dann wird sie veröffentlicht.
+- Neue Funktionen laufen zuerst in einer eigenen Testumgebung und im Android-Emulator.
+- Automatische Tests für App, Server und die Sicherheitsregeln der Datenbank.
+
+### In Zahlen
+
+| | |
+| --- | --- |
+| Code (App, Server, Regeln) | ca. 28.600 Zeilen |
+| Automatische Tests | ca. 3.550 Zeilen (262 Tests) |
+| Commits | über 290, seit Oktober 2026 |
+
+---
+
+## Weitere Projekte
+
+- **Fahim:** transkribiert deutsche und englische Vorlesungen, übersetzt sie ins Arabische und erklärt sie.
+
+---
+
+## Kontakt
+
+📫 [LinkedIn](https://www.linkedin.com/in/amer-alhelal-1930a5397/) · E-Mail: alhelalamer@gmail.com
