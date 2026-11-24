@@ -102,7 +102,11 @@ Die App spricht nie direkt mit einer Börse. Nur der Server benutzt die API-Schl
 
 Almadajen („die Geflügelfarm“) ist eine App für den Alltag auf Geflügelfarmen in Syrien: Masthähnchen, Legehennen und Elterntiere. Arbeiter tragen jeden Tag Verluste, Futter, Wasser, Temperatur und Gewicht ein, auch ohne Internet. Der Besitzer lebt in Deutschland und sieht alles auf dem Handy: was heute zu tun ist, Warnungen, Berichte und Gewinn.
 
-> Status: echte App im Einsatz. Android-App über Google Play (geschlossener Test, Freigabe für alle in Prüfung), dazu eine Web-App. Die Screenshots stammen aus der Testumgebung mit Demo-Daten. Der Code ist privat und kann auf Anfrage gezeigt werden.
+<a href="https://play.google.com/store/apps/details?id=com.madajen.poultry_farm"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/de_badge_web_generic.png" height="70" alt="Jetzt bei Google Play"></a>
+
+**Im Google Play Store:** [Almadajen – Geflügelfarm-Verwaltung](https://play.google.com/store/apps/details?id=com.madajen.poultry_farm) (Arabisch und Englisch). Tägliche Eingaben, Tagesleitfaden nach Rasse (Ross, Cobb, Hy-Line), Impfplan, Eier, Finanzen, Berichte mit Diagrammen, Warnungen per Push und eine wöchentliche KI-Analyse.
+
+> Status: echte App im Einsatz. Seit November 2026 für alle bei Google Play veröffentlicht, dazu eine Web-App ([poultry-farm-prod.web.app](https://poultry-farm-prod.web.app)), auch für das iPhone. Die Screenshots stammen aus der Testumgebung mit Demo-Daten. Der Code ist privat und kann auf Anfrage gezeigt werden.
 
 ### Screenshots
 
