@@ -29,6 +29,8 @@ In der Umschulung lerne ich, selbst zu programmieren. Genau das möchte ich im P
 
 Terando ist eine Plattform für Krypto-Trading-Bots. Ein Server handelt rund um die Uhr, eine Android-App steuert ihn.
 
+**Datenfluss und Sicherheit (Diagramme):** [terando-datenfluss.md](terando-datenfluss.md)
+
 > Status: persönliches Projekt für den eigenen Gebrauch – nicht kommerziell, nicht öffentlich verfügbar. Die Screenshots stammen aus einem Demo-Konto. Der Code ist privat und kann auf Anfrage gezeigt werden.
 
 ### Screenshots
@@ -96,7 +98,7 @@ sequenceDiagram
 - Bei einer Sperre behalten offene Trades ihre Sicherheits-Orders.
 - Die stündliche Prüfung kam nach einem externen Review meines Datenfluss-Diagramms dazu. Vorher wurden die Rechte nur beim Verbinden geprüft.
 
-📄 Der vollständige Datenfluss mit Anmeldung, Handel und Notfall: [Datenfluss als PDF](docs/terando-datenfluss.pdf)
+📄 Der vollständige Datenfluss mit Anmeldung, Handel und Notfall: [drei Diagramme](terando-datenfluss.md) · [als PDF](docs/terando-datenfluss.pdf)
 
 ### Funktionen
 
