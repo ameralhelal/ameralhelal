@@ -144,6 +144,10 @@ Almadajen („die Geflügelfarm“) ist eine App für den Alltag auf Geflügelfa
 
 **Im Google Play Store:** [Almadajen – Geflügelfarm-Verwaltung](https://play.google.com/store/apps/details?id=com.madajen.poultry_farm) (Arabisch und Englisch). Tägliche Eingaben, Tagesleitfaden nach Rasse (Ross, Cobb, Hy-Line), Impfplan, Eier, Finanzen, Berichte mit Diagrammen, Warnungen per Push und eine wöchentliche KI-Analyse.
 
+**Video (1 Minute, Englisch):** [Almadajen – Poultry Farm Manager auf YouTube](https://www.youtube.com/watch?v=4MjS_dhi-q0)
+
+<a href="https://www.youtube.com/watch?v=4MjS_dhi-q0"><img src="https://img.youtube.com/vi/4MjS_dhi-q0/hqdefault.jpg" width="360" alt="Video: Almadajen – Poultry Farm Manager"></a>
+
 **Architektur der App (Diagramme):** [almadajen-architektur.md](almadajen-architektur.md)
 
 > Status: echte App im Einsatz. Seit November 2026 für alle bei Google Play veröffentlicht, dazu eine Web-App ([poultry-farm-prod.web.app](https://poultry-farm-prod.web.app)), auch für das iPhone. Die Screenshots stammen aus der Testumgebung mit Demo-Daten. Der Code ist privat und kann auf Anfrage gezeigt werden.
