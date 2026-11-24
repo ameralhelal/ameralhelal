@@ -112,7 +112,7 @@ Almadajen („die Geflügelfarm“) ist eine App für den Alltag auf Geflügelfa
 
 | Ställe | Start: „Was tun jetzt“ | Start: Kennzahlen |
 | --- | --- | --- |
-| <img src="screenshots/farm/en-batches.png" width="240" alt="Liste der Ställe mit Rasse und Kükenzahl"> | <img src="screenshots/farm/en-home.png" width="240" alt="Karte „What to do now“ mit Kamera-Knöpfen, Alter, Futter und Wasser für heute"> | <img src="screenshots/farm/en-home2.png" width="240" alt="Kennzahlen mit kleinen Verlaufslinien und Menü"> |
+| <img src="screenshots/farm/en-batches.png" width="240" alt="Liste der Ställe mit Rasse und Kükenzahl"> | <img src="screenshots/farm/en-home.png" width="240" alt="Karte „What to do now“ mit Temperatur, Feuchte, Medikamenten, Alter, Futter und Wasser für heute"> | <img src="screenshots/farm/en-home2.png" width="240" alt="Kennzahlen mit kleinen Verlaufslinien und Menü"> |
 
 | Tagesleitfaden | Tägliche Eingabe | Medikamentenpackung fotografieren |
 | --- | --- | --- |
