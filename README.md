@@ -62,6 +62,42 @@ flowchart LR
 
 Die App spricht nie direkt mit einer Börse. Nur der Server benutzt die API-Schlüssel.
 
+### Sicherheit der API-Schlüssel
+
+Der Server darf mit dem Schlüssel handeln, aber nie Geld abheben. Das prüft er nicht nur einmal beim Verbinden, sondern jede Stunde.
+
+```mermaid
+sequenceDiagram
+    actor N as Nutzer
+    participant A as App
+    participant S as Server
+    participant B as Börse
+    N->>B: Schlüssel erstellen: nur Lesen + Handel, IP = Server
+    N->>A: Schlüssel eintragen
+    A->>S: Schlüssel (HTTPS)
+    S->>B: Welche Rechte hat der Schlüssel?
+    alt Auszahlung erlaubt oder keine IP-Sperre
+        S-->>A: Abgelehnt, nicht gespeichert
+    else Nur Handel, IP-gesperrt
+        S->>S: Verschlüsselt speichern
+    end
+    loop Jede Stunde
+        S->>B: Rechte erneut prüfen
+        alt Auszahlung jetzt erlaubt
+            S-->>A: Warnung, keine neuen Trades
+            Note over S,B: Nach 24 Stunden: Börse trennen
+        else Unklare Antwort, z. B. Timeout
+            S->>S: Nichts ändern
+        end
+    end
+```
+
+- Eine unklare Antwort der Börse löst nie eine Sperre aus. So wird kein gesundes Konto wegen eines Netzwerkfehlers getrennt.
+- Bei einer Sperre behalten offene Trades ihre Sicherheits-Orders.
+- Die stündliche Prüfung kam nach einem externen Review meines Datenfluss-Diagramms dazu. Vorher wurden die Rechte nur beim Verbinden geprüft.
+
+📄 Der vollständige Datenfluss mit Anmeldung, Handel und Notfall: [Datenfluss als PDF](docs/terando-datenfluss.pdf)
+
 ### Funktionen
 
 - **Bots mit verschiedenen Strategien**, zum Beispiel DCA mit Sicherheits-Orders.
