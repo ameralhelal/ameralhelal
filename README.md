@@ -150,17 +150,17 @@ Almadajen („die Geflügelfarm“) ist eine App für den Alltag auf Geflügelfa
 
 **Architektur der App (Diagramme):** [almadajen-architektur.md](almadajen-architektur.md)
 
-> Status: echte App im Einsatz. Seit November 2026 für alle bei Google Play veröffentlicht, dazu eine Web-App ([poultry-farm-prod.web.app](https://poultry-farm-prod.web.app)), auch für das iPhone. Die Screenshots stammen aus der Testumgebung mit Demo-Daten. Der Code ist privat und kann auf Anfrage gezeigt werden.
+> Status: echte App im Einsatz. Seit November 2026 für alle bei Google Play veröffentlicht, dazu eine Web-App ([poultry-farm-prod.web.app](https://poultry-farm-prod.web.app)), auch für das iPhone. Die Screenshots (Version 0.25.19, November 2026) stammen aus der Testumgebung mit Demo-Daten. Der Code ist privat und kann auf Anfrage gezeigt werden.
 
 ### Screenshots
 
-| Ställe | Start: „Was tun jetzt“ | Start: Kennzahlen |
+| Ställe | Start: Smart-Assistent und Anzeigen | Warnungen mit Tipps |
 | --- | --- | --- |
-| <img src="screenshots/farm/en-batches.png" width="240" alt="Liste der Ställe mit Rasse und Kükenzahl"> | <img src="screenshots/farm/en-home.png" width="240" alt="Karte „What to do now“ mit Temperatur, Feuchte, Medikamenten, Alter, Futter und Wasser für heute"> | <img src="screenshots/farm/en-home2.png" width="240" alt="Kennzahlen mit kleinen Verlaufslinien und Menü"> |
+| <img src="screenshots/farm/en-batches.png" width="240" alt="Liste der Ställe mit Rasse und Kükenzahl"> | <img src="screenshots/farm/en-home.png" width="240" alt="Smart-Assistent mit Hinweisen, Temperatur und Feuchte als Zeigeranzeige: blau zu niedrig, grün richtig, rot zu hoch"> | <img src="screenshots/farm/en-alerts.png" width="240" alt="Warnungen: kurze Zusammenfassung, Filter, die dringendste leuchtet, ein Tipp je Warnung"> |
 
-| Tagesleitfaden | Tägliche Eingabe | Medikamentenpackung fotografieren |
+| Start: Kennzahlen | Tagesleitfaden | Tägliche Eingabe |
 | --- | --- | --- |
-| <img src="screenshots/farm/en-guide.png" width="240" alt="Klima, Licht und Futter für jeden Tag nach Rasse"> | <img src="screenshots/farm/en-entry.png" width="240" alt="Eingabe von Verlusten, Futter und Wasser"> | <img src="screenshots/farm/en-camera.png" width="240" alt="Foto jetzt oder aus der Galerie"> |
+| <img src="screenshots/farm/en-home2.png" width="240" alt="Kennzahlen mit kleinen Verlaufslinien und Menü"> | <img src="screenshots/farm/en-guide.png" width="240" alt="Klima, Licht und Futter für jeden Tag nach Rasse"> | <img src="screenshots/farm/en-entry.png" width="240" alt="Eingabe von Verlusten, Futter und Wasser"> |
 
 | Impfplan | Bericht | Diagramme |
 | --- | --- | --- |
@@ -170,13 +170,13 @@ Almadajen („die Geflügelfarm“) ist eine App für den Alltag auf Geflügelfa
 <summary><b>Screenshots auf Arabisch (von rechts nach links) anzeigen</b></summary>
 <br>
 
-| Ställe | Start | Tagesleitfaden |
+| Ställe | Start | Warnungen |
 | --- | --- | --- |
-| <img src="screenshots/farm/ar-batches.png" width="240" alt="Liste der Ställe auf Arabisch"> | <img src="screenshots/farm/ar-home.png" width="240" alt="Startseite auf Arabisch"> | <img src="screenshots/farm/ar-guide.png" width="240" alt="Tagesleitfaden auf Arabisch"> |
+| <img src="screenshots/farm/ar-batches.png" width="240" alt="Liste der Ställe auf Arabisch"> | <img src="screenshots/farm/ar-home.png" width="240" alt="Startseite auf Arabisch mit Smart-Assistent und Zeigeranzeigen"> | <img src="screenshots/farm/ar-alerts.png" width="240" alt="Warnungen auf Arabisch mit Zusammenfassung, Filtern und Tipps"> |
 
-| Tägliche Eingabe | Impfplan | Diagramme |
+| Tagesleitfaden | Tägliche Eingabe | Impfplan |
 | --- | --- | --- |
-| <img src="screenshots/farm/ar-entry.png" width="240" alt="Tägliche Eingabe auf Arabisch"> | <img src="screenshots/farm/ar-vaccines.png" width="240" alt="Impfplan auf Arabisch"> | <img src="screenshots/farm/ar-charts.png" width="240" alt="Diagramme auf Arabisch"> |
+| <img src="screenshots/farm/ar-guide.png" width="240" alt="Tagesleitfaden auf Arabisch"> | <img src="screenshots/farm/ar-entry.png" width="240" alt="Tägliche Eingabe auf Arabisch"> | <img src="screenshots/farm/ar-vaccines.png" width="240" alt="Impfplan auf Arabisch"> |
 
 | Wochenanalyse (KI) | Kranke Herde (KI) | Ställe vergleichen |
 | --- | --- | --- |
