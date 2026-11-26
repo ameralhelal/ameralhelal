@@ -149,7 +149,7 @@ Almadajen („die Geflügelfarm“) ist eine App für den Alltag auf Geflügelfa
 
 **Architektur der App (Diagramme):** [almadajen-architektur.md](almadajen-architektur.md)
 
-> Status: echte App im Einsatz. Seit November 2026 für alle bei Google Play veröffentlicht, dazu eine Web-App ([poultry-farm-prod.web.app](https://poultry-farm-prod.web.app)), auch für das iPhone. Die Screenshots (Version 0.25.19, November 2026) stammen aus der Testumgebung mit Demo-Daten. Der Code ist privat und kann auf Anfrage gezeigt werden.
+> Status: echte App im Einsatz. Seit November 2026 für alle bei Google Play veröffentlicht, dazu eine Web-App ([poultry-farm-prod.web.app](https://poultry-farm-prod.web.app)), auch für das iPhone. Die Screenshots (Version 0.25.19, November 2026) stammen aus der Testumgebung mit Demo-Daten. Der Code ist privat.
 
 ### Screenshots
 
