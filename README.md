@@ -31,8 +31,7 @@ Terando ist eine Plattform für Krypto-Trading-Bots. Ein Server handelt rund um 
 
 **Datenfluss und Sicherheit (Diagramme):** [terando-datenfluss.md](terando-datenfluss.md)
 
-> Status: persönliches Projekt für den eigenen Gebrauch – nicht kommerziell, nicht öffentlich verfügbar. Die Screenshots stammen aus einem Demo-Konto. Der Code ist privat und kann auf Anfrage gezeigt werden.
-
+> Status: persönliches Projekt für den eigenen Gebrauch – nicht kommerziell, nicht öffentlich verfügbar. Die Screenshots stammen aus einem Demo-Konto. Der Code ist privat.
 ### Screenshots
 
 | Start | Meine Bots | Trades |
