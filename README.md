@@ -141,7 +141,7 @@ Almadajen („die Geflügelfarm“) ist eine App für den Alltag auf Geflügelfa
 
 <a href="https://play.google.com/store/apps/details?id=com.madajen.poultry_farm"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/de_badge_web_generic.png" height="70" alt="Jetzt bei Google Play"></a>
 
-**Im Google Play Store:** [Almadajen – Geflügelfarm-Verwaltung](https://play.google.com/store/apps/details?id=com.madajen.poultry_farm) (Arabisch und Englisch). Tägliche Eingaben, Tagesleitfaden nach Rasse (Ross, Cobb, Hy-Line), Impfplan, Eier, Finanzen, Berichte mit Diagrammen, Warnungen per Push und eine wöchentliche KI-Analyse.
+**Im Google Play Store:** [Almadajen – Geflügelfarm-Verwaltung](https://play.google.com/store/apps/details?id=com.madajen.poultry_farm) (Arabisch, Englisch und Deutsch). Tägliche Eingaben, Tagesleitfaden nach Rasse (Ross, Cobb, Hy-Line), Impfplan, Eier, Finanzen, Berichte mit Diagrammen, Warnungen per Push und eine wöchentliche KI-Analyse.
 
 **Video (1 Minute, Englisch):** [Almadajen – Poultry Farm Manager auf YouTube](https://www.youtube.com/watch?v=4MjS_dhi-q0)
 
@@ -187,7 +187,7 @@ Almadajen („die Geflügelfarm“) ist eine App für den Alltag auf Geflügelfa
 
 ```mermaid
 flowchart LR
-    App["App<br/>Flutter (Dart), Android + Web<br/>Arabisch · Englisch<br/>funktioniert offline"]
+    App["App<br/>Flutter (Dart), Android + Web<br/>Arabisch · Englisch · Deutsch<br/>funktioniert offline"]
     DB[("Firestore<br/>Einträge nur anhängen,<br/>nie überschreiben")]
     Fn["Cloud Functions<br/>TypeScript<br/>Tageszusammenfassung · Warnungen"]
     Push["Push<br/>Firebase Cloud Messaging"]
@@ -213,7 +213,7 @@ Jeder Eintrag ist ein Ereignis, das nur angehängt wird. Daraus berechnet der Se
 - **Finanzen nur für den Besitzer:** Kosten, Verkäufe, Gewinn je Durchgang, in Dollar oder Landeswährung, Kauf auf Rechnung.
 - **KI:** wöchentliche Analyse der Zahlen und Hilfe bei kranker Herde. Immer als Vorschlag, die Entscheidung trifft der Tierarzt.
 - **Rollen:** Besitzer, Tierarzt (nur lesen), Arbeiter (nur eigene Ställe). Einfache, eindeutige Texte für Arbeiter, die kaum lesen.
-- **Zwei Sprachen:** Arabisch (von rechts nach links) und Englisch.
+- **Drei Sprachen:** Arabisch (von rechts nach links), Englisch und Deutsch.
 
 ### Technik
 
