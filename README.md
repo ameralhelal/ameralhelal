@@ -149,21 +149,21 @@ Almadajen („die Geflügelfarm“) ist eine App für den Alltag auf Geflügelfa
 
 **Architektur der App (Diagramme):** [almadajen-architektur.md](almadajen-architektur.md)
 
-> Status: echte App im Einsatz. Seit November 2026 für alle bei Google Play veröffentlicht, dazu eine Web-App ([poultry-farm-prod.web.app](https://poultry-farm-prod.web.app)), auch für das iPhone. Die Screenshots (Version 0.25.19, November 2026) stammen aus der Testumgebung mit Demo-Daten. Der Code ist privat.
+> Status: echte App im Einsatz. Seit November 2026 für alle bei Google Play veröffentlicht, dazu eine Web-App ([poultry-farm-prod.web.app](https://poultry-farm-prod.web.app)), auch für das iPhone. Die Screenshots (deutsch: Version 0.25.28–0.25.30, arabisch: 0.25.19; November 2026) stammen aus der Testumgebung mit Demo-Daten. Der Code ist privat.
 
 ### Screenshots
 
 | Ställe | Start: Smart-Assistent und Anzeigen | Warnungen mit Tipps |
 | --- | --- | --- |
-| <img src="screenshots/farm/en-batches.png" width="240" alt="Liste der Ställe mit Rasse und Kükenzahl"> | <img src="screenshots/farm/en-home.png" width="240" alt="Smart-Assistent mit Hinweisen, Temperatur und Feuchte als Zeigeranzeige: blau zu niedrig, grün richtig, rot zu hoch"> | <img src="screenshots/farm/en-alerts.png" width="240" alt="Warnungen: kurze Zusammenfassung, Filter, die dringendste leuchtet, ein Tipp je Warnung"> |
+| <img src="screenshots/farm/de-batches.png" width="240" alt="Liste der Ställe mit Rasse und Kükenzahl"> | <img src="screenshots/farm/de-home.png" width="240" alt="Smart-Assistent mit Hinweisen, Temperatur und Feuchte als Zeigeranzeige: blau zu niedrig, grün richtig, rot zu hoch"> | <img src="screenshots/farm/de-alerts.png" width="240" alt="Warnungen: kurze Zusammenfassung, Filter, die dringendste leuchtet, ein Tipp je Warnung"> |
 
 | Start: Kennzahlen | Tagesleitfaden | Tägliche Eingabe |
 | --- | --- | --- |
-| <img src="screenshots/farm/en-home2.png" width="240" alt="Kennzahlen mit kleinen Verlaufslinien und Menü"> | <img src="screenshots/farm/en-guide.png" width="240" alt="Klima, Licht und Futter für jeden Tag nach Rasse"> | <img src="screenshots/farm/en-entry.png" width="240" alt="Eingabe von Verlusten, Futter und Wasser"> |
+| <img src="screenshots/farm/de-home2.png" width="240" alt="Kennzahlen mit kleinen Verlaufslinien und Menü"> | <img src="screenshots/farm/de-guide.png" width="240" alt="Klima, Licht und Futter für jeden Tag nach Rasse"> | <img src="screenshots/farm/de-entry.png" width="240" alt="Eingabe von Verlusten, Futter und Wasser"> |
 
 | Impfplan | Bericht | Diagramme |
 | --- | --- | --- |
-| <img src="screenshots/farm/en-vaccines.png" width="240" alt="Impfplan mit Hinweisen zur Impfung im Trinkwasser"> | <img src="screenshots/farm/en-report.png" width="240" alt="FCR, EPEF und voraussichtlicher Verkaufstag"> | <img src="screenshots/farm/en-charts.png" width="240" alt="Gewicht gegen Ziel, Verluste, Futter und Wasser"> |
+| <img src="screenshots/farm/de-vaccines.png" width="240" alt="Impfplan mit Hinweisen zur Impfung im Trinkwasser"> | <img src="screenshots/farm/de-report.png" width="240" alt="FCR, EPEF und voraussichtlicher Verkaufstag"> | <img src="screenshots/farm/de-charts.png" width="240" alt="Gewicht gegen Ziel, Verluste, Futter und Wasser"> |
 
 <details>
 <summary><b>Screenshots auf Arabisch (von rechts nach links) anzeigen</b></summary>
